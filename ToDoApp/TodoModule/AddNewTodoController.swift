@@ -10,7 +10,7 @@ import UIKit
 class AddNewTodoController: BaseViewController , UITextFieldDelegate {
     
     
-    private var todoCurrentDate = Date()
+    var todoCurrentDate = Date()
     
     private lazy var addTitleField : TextField = {
         let title = TextField(placeholder: "Title", cornerRadius: 40, backgroundColor: .clear, borderColor: .black)
